@@ -1,0 +1,18 @@
+[
+    {
+        "status": 500,
+        "name": "internal server error",
+        "messages": {
+            "en_US": "Something went wrong",
+            "ru_RU": "Что-то пошло не так"
+        }
+    },
+    {
+        "status": 404,
+        "name": "not found error",
+        "messages": {
+            "en_US": "Resource not found",
+            "ru_RU": "Ресурс не найден"
+        }
+    }
+]
