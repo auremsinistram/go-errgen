@@ -38,15 +38,15 @@ func New(
 
 func (u *usecase) Generate() error {
 	if *u.inputPath == "" {
-		return errors.Errorf("input path is required")
+		return errors.New("input path is required")
 	}
 
 	if *u.econstPath == "" {
-		return errors.Errorf("econst path is required")
+		return errors.New("econst path is required")
 	}
 
 	if *u.responsePath == "" {
-		return errors.Errorf("response path is required")
+		return errors.New("response path is required")
 	}
 
 	if ext := filepath.Ext(*u.inputPath); ext != ".json" {

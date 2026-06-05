@@ -74,7 +74,7 @@ The JSON file is served by an API endpoint to provide client-side error localiza
 		} else {
 			var e errors.Error
 
-			if errors.As(errors.GetRoot(err), &e) {
+			if errors.As(errors.Root(err), &e) {
 				message = e.Description()
 			} else {
 				message = err.Error()
