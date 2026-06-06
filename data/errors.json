@@ -9,7 +9,7 @@
     },
     {
         "status": 404,
-        "name": "not found error",
+        "name": "not found",
         "messages": {
             "en_US": "Resource not found",
             "ru_RU": "Ресурс не найден"
