@@ -1,11 +1,7 @@
-github.com/auremsinistram/go-errors v0.5.0 h1:K5gubjXatGTuKrLXfrxq81CyOBB3QLVJ9xlqWl1azqQ=
-github.com/auremsinistram/go-errors v0.5.0/go.mod h1:UvECZhIF3hRWsE3F8LOKZ5QHh6ZkUdbC676jDUq26iU=
 github.com/auremsinistram/go-errors v0.6.0 h1:FaXIzWIL0jTS3sWvQa0J5kg5RMUPa/53WEPi6DCbgtw=
 github.com/auremsinistram/go-errors v0.6.0/go.mod h1:UvECZhIF3hRWsE3F8LOKZ5QHh6ZkUdbC676jDUq26iU=
-github.com/auremsinistram/go-toolkit v0.3.0 h1:28E3ZRxx2irbteCvw4UnyFzBhIsXIY4bWJMg2Ap3wvY=
-github.com/auremsinistram/go-toolkit v0.3.0/go.mod h1:WmrSbbLQF6iuR3odQ2PfN2j/9wHA4LTHgZRSOX6bIec=
-github.com/auremsinistram/go-toolkit v0.3.1 h1:uZUiCZXrsKtkLNR7uJvdMVkrdzofNCoLlv8H8ZzoyYY=
-github.com/auremsinistram/go-toolkit v0.3.1/go.mod h1:yPqa4hmKTPi6w93tip4ogBBRjT9ptQUXVhectyalMEk=
+github.com/auremsinistram/go-toolkit v0.4.0 h1:70kTjVOgwdsfjFgHApoAI6IoribL6kEVMpUH6E3xDRY=
+github.com/auremsinistram/go-toolkit v0.4.0/go.mod h1:G/4FAO1v/E03+bnUvPbyVvb3ivSnQvJXmbYW/oGm+8I=
 github.com/cpuguy83/go-md2man/v2 v2.0.6/go.mod h1:oOW0eioCTA6cOiMLiUPZOpcVxMig6NIQQ7OS05n1F4g=
 github.com/inconshreveable/mousetrap v1.1.0 h1:wN+x4NVGpMsO7ErUn/mUI3vEoE6Jt13X2s0bqwp9tc8=
 github.com/inconshreveable/mousetrap v1.1.0/go.mod h1:vpF70FUmC8bwa3OWnCshd2FqLfsEA9PFc4w1p2J65bw=
