@@ -1,8 +1,9 @@
 package generator
 
 import (
-	domain "github.com/auremsinistram/go-errgen/internal/generator/domain"
 	"github.com/spf13/cobra"
+
+	domain "github.com/auremsinistram/go-errgen/internal/generator/domain"
 )
 
 type CommandFunc func(cmd *cobra.Command, args []string) error
