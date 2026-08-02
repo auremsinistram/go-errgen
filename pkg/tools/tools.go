@@ -63,8 +63,7 @@ func Code(input string) int {
 func CompactJSON(data []byte) ([]byte, error) {
 	var buffer bytes.Buffer
 
-	err := json.Compact(&buffer, data)
-	if err != nil {
+	if err := json.Compact(&buffer, data); err != nil {
 		return nil, errors.Wrap(err, "tools - CompactJSON - #1")
 	}
 
