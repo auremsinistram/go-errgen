@@ -18,8 +18,6 @@ var (
 )
 
 func main() {
-	debug := tools.GetenvBool("DEBUG", false)
-
 	rootCmd := &cobra.Command{
 		Use:   "errgen",
 		Short: "Generate error code constants and localization payloads from a JSON specification",
@@ -69,7 +67,7 @@ The JSON file is served by an API endpoint to provide client-side error localiza
 	if err := rootCmd.Execute(); err != nil {
 		var message string
 
-		if debug {
+		if tools.GetenvBool("DEBUG", false) {
 			message = err.Error()
 		} else {
 			var e errors.Error
