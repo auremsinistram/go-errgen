@@ -128,7 +128,7 @@ func (u *usecase) generate(data []byte) ([]byte, []byte, error) {
 
 		fmt.Fprintf(
 			&errData,
-			"\t%d: {\n\t\tstatus: %d,\n\t\tmessage: \"%s\",\n\t},\n",
+			"\t%d: {\n\t\tstatus: %d,\n\t\tmessage: %q,\n\t},\n",
 			code,
 			value.Status,
 			value.Name,
