@@ -119,6 +119,10 @@ func (u *usecase) generate(data []byte) ([]byte, []byte, error) {
 		name := tools.PascalCase(value.Name)
 		code := tools.Code(name)
 
+		if _, ok := response[code]; ok {
+			return nil, nil, errors.Errorf("duplicate error name %q", value.Name)
+		}
+
 		fmt.Fprintf(
 			&errConst,
 			"\t%s = %d\n",
