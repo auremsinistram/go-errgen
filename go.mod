@@ -4,7 +4,7 @@ go 1.25.10
 
 require (
 	github.com/auremsinistram/go-errors v0.6.2
-	github.com/auremsinistram/go-toolkit v0.4.4
+	github.com/auremsinistram/go-toolkit v0.5.0
 	github.com/spf13/cobra v1.10.2
 )
 
