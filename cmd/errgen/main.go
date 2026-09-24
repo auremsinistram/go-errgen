@@ -30,6 +30,7 @@ func main() {
 
 The generated Go file is used internally for error handling.
 The JSON file is served by an API endpoint to provide client-side error localization.`,
+		Version: "0.2.0",
 	}
 
 	rootCmd.SilenceErrors = true
