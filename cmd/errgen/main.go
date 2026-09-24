@@ -39,22 +39,22 @@ The JSON file is served by an API endpoint to provide client-side error localiza
 
 	flags.StringVarP(
 		&inputPath, "input", "i", "",
-		"Path to input JSON file with error definitions (array of {status, name, messages})",
+		"path to input JSON file with error definitions (array of {status, name, messages})",
 	)
 
 	flags.StringVarP(
 		&econstPath, "econst", "c", "",
-		"Output path for the generated .go file (error constants, ErrData map, and ErrRes []byte)",
+		"output path for the generated .go file (error constants, ErrData map, and ErrRes []byte)",
 	)
 
 	flags.StringVarP(
 		&responsePath, "response", "r", "",
-		"Output path for the generated .json file (maps error codes to localized messages for client API responses)",
+		"output path for the generated .json file (maps error codes to localized messages for client API responses)",
 	)
 
 	flags.StringVarP(
 		&errorName, "error", "e", "",
-		"Name of the error used to generate the ErrRes []byte constant for fallback/unexpected error responses",
+		"name of the error used to generate the ErrRes []byte constant for fallback/unexpected error responses",
 	)
 
 	generator.Build(
